@@ -1,0 +1,65 @@
+
+.valuebox {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #141313;
+    border: 1px solid #e0dbdb;
+    color: wheat;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+  }
+  
+  .valuebox:hover {
+    background-color: #534d4d;
+  }
+  
+  .valuebox:active {
+    background-color: #bbb;
+  }
+  
+  /* Styling for the board rows */
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the status message */
+  .status {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .status {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the reset button */
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .reset-button:hover {
+    background-color: #ff4d4d;
+  }
+  
+  .reset-button:active {
+    background-color: #ff3333;
+  }
