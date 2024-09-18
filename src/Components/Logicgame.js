@@ -48,6 +48,7 @@ const Logicgame = () => {
 
   return (
     <div className="game">
+        <div className='status'> TIC-TAC-TOE</div>
       <div className="status">{status}</div>
       <Board squares={squares} onClick={handleClick} />
       <button className="reset-button" onClick={resetGame}>

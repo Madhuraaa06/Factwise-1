@@ -12,7 +12,7 @@ const Board = ({ squares, onClick }) => {
   };
 
   return (
-    <div>
+    <div className='board'>
       <div className="row">
         {square(0)}
         {square(1)}
